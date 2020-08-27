@@ -12,9 +12,10 @@ It can contain main logic device (cpld, fpga or fast microcontroller like sx28 b
 and start send changed data immediately from on-modchip flash memory 
 (easiest way - to use parallel memory chip).
 
-3.First changed data (next - patches) was developed by modchip engineers as a patch. 
+3.First custom fw data (next - patches) was developed by modchip engineers as a patch. 
 It contains MIPS R5900 Emotion Engine code.
-Probably, first attempt for this was implemented on big parallel eeprom or flash chips (32 mbits), but it was expensive at the moment.
+Probably, first attempt for this was implemented on big parallel eeprom or flash chips (32 mbits), but i don't know why we dont have custom bios for ps2 but have the tricky modchips.
+
 The playstation 2 rom firmware (also known as ps2 bios) is a set of bootstrap code, libraries and executable elf files for almost any occasion (drivers, user interface, etc).
 It can be easily read with parallel programmer from ROM chip and later examined with MIPS disassembler.
 
